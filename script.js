@@ -1,27 +1,28 @@
 //your code here
 .holder{
     display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-flow: wrap;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    align-items: flex-start;
+}
+div{
+    height: 150px;
+    width: 150px;
+    font-size: 2em;
 }
 
-.item-1{
-    width: 100px;
-    height: 100px;
+#d1{
+    color: black;
     background-color: red;
-    order: 2;
 }
-
-.item-2{
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-    order: 4;
-}
-
-.item-3{
-    width: 100px;
-    height: 100px;
+#d2{
+    color: black;
     background-color: blue;
-    order: 1;
+}
+#d3{
+    color: black;
+    background-color: green;
 }
